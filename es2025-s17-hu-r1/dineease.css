@@ -10,3 +10,39 @@
     border-color: var(--custom-background-color);
     
 }
+#Hero_szoveg{
+    padding: 150px 180px;
+}
+#HeroSection{
+    background-image: url("assets/images/hatter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#top3_szoveg{
+    padding-bottom: 60px;
+    margin-left: -150px;
+}
+
+#velemeny_cim{
+    padding: 0px 450px;
+}
+#keresosav_cim{
+    text-align: center;
+}
+#Testimonials{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: rgba(196, 181, 253,1);
+}
+#kartya{
+    padding-left: 50px;
+}
