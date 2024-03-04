@@ -46,3 +46,26 @@
 #kartya{
     padding-left: 50px;
 }
+#kartya2{
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.idezojel{
+    max-width: 25px;
+}
+.alairas{
+    font-weight: bold;
+}
+#keresosav{
+    text-align: center;
+}
+#footer{
+    background-color:black;
+    color:white;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+div .card .card-img-top{
+    min-width: 300px;
+    min-height: 280px;
+}

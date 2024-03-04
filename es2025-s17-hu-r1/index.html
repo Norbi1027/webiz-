@@ -10,7 +10,7 @@
     <script src="dineease.js"></script>
 </head>
 <body>
-    <div class="containe" id="sheet">
+    <div id="sheet">
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -105,7 +105,7 @@
                       <div class="col-6">
                           <h1>Delightful Experiences Shared by Our Guests</h1>
                           <div class="card velemeny" id="kartya">
-                              <p>Exquisite flavors, impeccable service, and a memorable ambiance – DineEase made our
+                              <p> <img class="idezojel" src="assets/images/Quote mark.png" alt=""> Exquisite flavors, impeccable service, and a memorable ambiance – DineEase made our
                                   celebration
                                   truly special!</p>
                               <p class="alairas">Robert & Emily</p>
@@ -115,7 +115,7 @@
 
                       <div class="col-6">
                           <div class="card velemeny" id="kartya">
-                              <p>With DineEase, we've uncovered culinary treasures right in our city. Every dining
+                              <p> <img class="idezojel" src="assets/images/Quote mark.png" alt=""> With DineEase, we've uncovered culinary treasures right in our city. Every dining
                                   recommendation
                                   feels like an exclusive invitation to a world of flavors. We thought we knew our
                                   local
@@ -123,8 +123,8 @@
                                   scene, but DineEase introduced us to so much more.</p>
                               <p class="alairas">Emma & Jacob</p>
                           </div>
-                          <div class="card velemeny" id="kartya">
-                              <p>DineEase guided us to hidden gems we never knew existed! We've become food
+                          <div class="card velemeny" id="kartya2">
+                              <p> <img class="idezojel" src="assets/images/Quote mark.png" alt="">  DineEase guided us to hidden gems we never knew existed! We've become food
                                   adventurers,
                                   thanks to
                                   this platform.</p>
@@ -139,15 +139,14 @@
                 <h1 id="keresosav_cim">Find your perfect dining spot</h1>
                 <p id="keresosav_cim">Search by Cuisine, Location, or Name</p>
 
-                <div class="input-group">
-                  <div class="form-outline" data-mdb-input-init>
-                    <input type="search" id="form1" class="form-control" />
-                    <label class="form-label" for="form1">Search</label>
-                  </div>
-                  <button type="button" class="btn btn-secondary" data-mdb-ripple-init>
-                    <i class="fas fa-search"></i>
-                  </button>
-                </div>
+                <div class="search-container">
+                  <form action="/action_page.php">
+                      <img src="images/Search Iconvector.svg" alt="search" class="se"><input type="text"
+                          placeholder="Search for restaurants" name="search"><img src="images/Filter Iconvector.svg">
+                      <button type="submit" style="background-color: rgb(207,183,249);"><img
+                              src="images/Search Iconvector.svg"></button>
+                  </form>
+              </div>
 
                 <div class="row">
                   <div class="col-md-4 col-xs-12">
@@ -188,7 +187,15 @@
             </div>
 
         </main>
-        <footer></footer>
+        <footer id="footer">
+            <img src="assets/images/Logomark.png" alt="">
+            <p>Privacy Policy</p>
+            <p>+36 30 123 4567</p>
+         
+              </div>
+            </div>
+            
+        </footer>
     </div>
     
 </body>
